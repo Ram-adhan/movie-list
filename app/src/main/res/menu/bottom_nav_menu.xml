@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_light_white"
+        app:showAsAction="never"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/categories"
+        android:icon="@drawable/order_light_white"
+        app:showAsAction="never"
+        android:title="Categories"/>
+
+    <item
+        android:id="@+id/downloads"
+        android:icon="@drawable/import_light_white"
+        app:showAsAction="never"
+        android:title="Downloads"/>
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/widget_add_light_white"
+        app:showAsAction="never"
+        android:title="More"/>
+</menu>
